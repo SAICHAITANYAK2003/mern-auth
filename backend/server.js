@@ -9,7 +9,7 @@ import cors from "cors";
 const app = express();
 connectDb();
 
-const allowedOrigin = ["http://localhost:5173"];
+const allowedOrigin = ["https://mern-auth-frontend-qghz.onrender.com"];
 
 const port = process.env.PORT || 4000;
 app.use(express.json());
