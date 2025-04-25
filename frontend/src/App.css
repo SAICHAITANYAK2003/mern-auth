@@ -1,0 +1,318 @@
+.navbar-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border-bottom: 1px solid #eee; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+.nav-login-btn {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #f7f7f7;
+}
+
+.profile-box {
+  height: 25px;
+  width: 25px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-icon {
+  font-size: 30px;
+}
+.mern-logo {
+  height: 30px;
+}
+.home-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/bg_img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-page-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.robo-img {
+  height: 120px;
+  border-radius: 80px;
+}
+.home-start-btn {
+  height: 30px;
+  width: 110px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  color: #000;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.home-text {
+  text-align: center;
+}
+
+/* LOGIN PAGE CSS */
+
+.login-page {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(200, 200, 255),
+    rgb(255, 211, 255)
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.form-box {
+  background-color: #14213d;
+  border: 1px solid #000;
+  height: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 11px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+input {
+  height: 25px;
+  outline: none;
+  width: 250px;
+}
+label {
+  color: #fff;
+}
+.login-form-title {
+  text-align: center;
+  color: azure;
+}
+.fg-pass-link {
+  color: #8093f1;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+.login-btn {
+  height: 32px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  background-image: linear-gradient(to right, #3c54cb 70%, #0822a8 100%);
+}
+
+.sigup-page-link {
+  color: #ebf2ff;
+  text-align: center;
+  font-size: 12px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  color: #000;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  width: 100px;
+}
+.dropdown-menu p {
+  font-weight: 300;
+  cursor: pointer;
+}
+.dropdown-menu p:hover {
+  text-decoration: underline;
+}
+
+/* Email verification page css */
+
+.email-verify-page {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(200, 200, 255),
+    rgb(255, 211, 255)
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.verify-email-input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.email-verify-form {
+  background-color: #14213d;
+  border: 1px solid #000;
+  height: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.email-verify-title {
+  color: #ebf2ff;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.email-verify-subtitle {
+  font-size: 12px;
+  color: #ebf2ff;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+.send-otp-btn {
+  cursor: pointer;
+  height: 35px;
+  background-image: linear-gradient(to right, #3c54cb 70%, #0822a8 100%);
+  color: #fff;
+  width: 120px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Reset Password Page  */
+.reset-passwd-page {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(200, 200, 255),
+    rgb(255, 211, 255)
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-passwd-form {
+  background-color: #14213d;
+  border: 1px solid #000;
+  height: 200px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.reset-passwd-email-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.reset-passwd-title {
+  color: #ebf2ff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.reset-passwd-otp-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.reset-passwd-otp-btn {
+  cursor: pointer;
+  height: 30px;
+  background-image: linear-gradient(to right, #3c54cb 70%, #0822a8 100%);
+  color: #fff;
+  width: 110px;
+  border: none;
+  border-radius: 12px;
+}
+
+/*Password change form*/
+
+.passwd-change-form {
+  background-color: #14213d;
+  border: 1px solid #000;
+  height: 350px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 11px;
+}
+.passwd-change-title {
+  color: #ebf2ff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.passwd-change-email-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.passwd-change-otp-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.passwd-change-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
