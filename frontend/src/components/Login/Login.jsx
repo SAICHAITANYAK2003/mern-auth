@@ -158,8 +158,6 @@ const Login = () => {
           value={password}
         />
       </div>
-
-      <p className="fg-pass-link">Forgot password?</p>
       <button className="login-btn" type="submit">
         Signup
       </button>
