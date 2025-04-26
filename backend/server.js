@@ -9,7 +9,7 @@ import cors from "cors";
 const app = express();
 connectDb();
 
-const allowedOrigin = ["https://mern-auth-frontend-umber-psi.vercel.app/"];
+const allowedOrigin = ["https://mern-auth-frontend-umber-psi.vercel.app"];
 
 const port = process.env.PORT || 4000;
 app.use(express.json());
